@@ -14,8 +14,7 @@ A production-ready, modular **E-Commerce REST API** built using **FastAPI** and 
 ├── main.py # FastAPI app entry point
 ├── requirements.txt # Dependencies
 ├── render.yaml # Deployment config for Render
-├── .env # Environment variables (Mongo URI, etc.)
-└── README.md # You're here!
+├── .env # Environment variables (Mongo URI, etc.)└── README.md # You're here!
 
 
 ---
@@ -43,6 +42,7 @@ A production-ready, modular **E-Commerce REST API** built using **FastAPI** and 
 ```bash
 git clone https://github.com/<your-username>/hrone-backend-task.git
 cd hrone-backend-task
+```
 
 ## 🛠️ Setup Instructions
 
@@ -52,11 +52,13 @@ cd hrone-backend-task
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 ### Run app
 
 ```bash
 uvicorn main:app --reload
+```
 
 ### 🧾 Orders
 
@@ -71,6 +73,7 @@ uvicorn main:app --reload
   "total_amount": 999.99,
   "status": "pending"
 }
+```
 
 #### 📥 Get Orders for a User  
 **GET** `/orders/{user_id}?limit=10&offset=0`
@@ -97,6 +100,7 @@ uvicorn main:app --reload
   "price": 499.99,
   "description": "Premium cotton tee"
 }
+```
 
 #### 🔍 List Products  
 **GET** `/products/?name=shirt&size=M&limit=10&offset=0`
