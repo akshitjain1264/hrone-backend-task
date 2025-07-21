@@ -6,6 +6,7 @@ A production-ready, modular **E-Commerce REST API** built using **FastAPI** and 
 
 ## 📂 Project Structure
 
+```
 ├── app/
 │ ├── models/ # Database models and helper functions
 │ ├── routes/ # API route handlers for products and orders
@@ -14,7 +15,9 @@ A production-ready, modular **E-Commerce REST API** built using **FastAPI** and 
 ├── main.py # FastAPI app entry point
 ├── requirements.txt # Dependencies
 ├── render.yaml # Deployment config for Render
-├── .env # Environment variables (Mongo URI, etc.)└── README.md # You're here!
+├── .env # Environment variables (Mongo URI, etc.)
+└── README.md # You're here!
+```
 
 
 ---
