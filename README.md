@@ -8,15 +8,15 @@ A production-ready, modular **E-Commerce REST API** built using **FastAPI** and 
 
 ```
 ├── app/
-│ ├── models/ # Database models and helper functions
-│ ├── routes/ # API route handlers for products and orders
-│ ├── schemas/ # Pydantic models for request and response validation
-│ └── database.py # MongoDB connection via Motor
-├── main.py # FastAPI app entry point
-├── requirements.txt # Dependencies
-├── render.yaml # Deployment config for Render
-├── .env # Environment variables (Mongo URI, etc.)
-└── README.md # You're here!
+│ ├── models/            # Database models and helper functions
+│ ├── routes/            # API route handlers for products and orders
+│ ├── schemas/           # Pydantic models for request and response validation
+│ └── database.py        # MongoDB connection via Motor
+├── main.py              # FastAPI app entry point
+├── requirements.txt    
+├── render.yaml          
+├── .env                   
+└── README.md 
 ```
 
 
