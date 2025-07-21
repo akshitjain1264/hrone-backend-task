@@ -1,7 +1,6 @@
-def product_helper(product) -> dict:
+def order_helper(order) -> dict:
     return {
-        "id": str(product["_id"]),
-        "name": product["name"],
-        "price": product["price"],
-        "size": product.get("size")
+        "id": str(order["_id"]),
+        "user_id": order["user_id"],
+        "products": order["products"],  # list of {product_id, quantity}
     }
